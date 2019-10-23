@@ -12,4 +12,4 @@ class SearchResultPage(BasePage):
         return self.get_element(self.BUTTON_FOLLOW).text
 
     def get_button_text(self):
-        return self.get_text(self.BUTTON_FOLLOW, self.BUTTON_FOLLOW.text)
+        return self.get_text(self.BUTTON_FOLLOW, "Follow")
